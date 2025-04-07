@@ -1,0 +1,6 @@
+Task Name,Assigned To,Project,Due Date,Priority,Status,Calendar Event ID,Block Time (Y/N),Start Time,End Time
+Draft Omega Proposal,Arch_Sam,Omega Migration,Sat Apr 05 2025 01:00:00 GMT-0500 (Central Daylight Time),High,In Progress,,Y,Sat Dec 30 1899 13:36:36 GMT-0600 (Central Standard Time),Sat Dec 30 1899 16:36:36 GMT-0600 (Central Standard Time)
+Review Sigma Diagram,Arch_Lisa,Sigma Security Scan,Thu Apr 10 2025 01:00:00 GMT-0500 (Central Daylight Time),Medium,Not Started,,,,
+Send Epsilon Invoice,Admin_Ben,Epsilon Enhancement,Sun Mar 30 2025 01:00:00 GMT-0500 (Central Daylight Time),High,Completed,,,,
+Follow up with Alice,SDR_Jane,Lead: Alice Alpha,Wed Apr 02 2025 01:00:00 GMT-0500 (Central Daylight Time),Medium,Not Started,,,,
+Prep Delta Kickoff Call,Arch_Lisa,,Fri Apr 04 2025 01:00:00 GMT-0500 (Central Daylight Time),High,Not Started,,Y,Sat Dec 30 1899 10:36:36 GMT-0600 (Central Standard Time),Sat Dec 30 1899 11:36:36 GMT-0600 (Central Standard Time)

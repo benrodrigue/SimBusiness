@@ -1,0 +1,5 @@
+Customer Name,Total Paid,Future Payments,Payment Due Date,Actions Needed,Folder Link,Last Contact Date,Sentiment
+Alpha Corp,50000,10000,Thu May 01 2025 01:00:00 GMT-0500 (Central Daylight Time),Schedule QBR,drive_link_alpha,Thu Mar 20 2025 01:00:00 GMT-0500 (Central Daylight Time),Good
+Beta Inc,25000,5000,Tue Apr 15 2025 01:00:00 GMT-0500 (Central Daylight Time),Follow up on feedback,drive_link_beta,Fri Mar 28 2025 01:00:00 GMT-0500 (Central Daylight Time),Okay
+Gamma LLC,12000,0,,,drive_link_gamma,Mon Mar 10 2025 01:00:00 GMT-0500 (Central Daylight Time),Good
+Example Solutions,0,8000,Sun Apr 20 2025 01:00:00 GMT-0500 (Central Daylight Time),Needs Onboarding Call,drive_link_example,Tue Apr 01 2025 01:00:00 GMT-0500 (Central Daylight Time),Bad

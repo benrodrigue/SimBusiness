@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoftStackers Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">SoftStackers Dashboard</div>
+    <div class="kpi-container">
+      <span>Revenue: <strong>$1.2M</strong></span>
+      <span>Profit: <strong>$400K</strong></span>
+      <span>Expenses: <strong>$800K</strong></span>
+    </div>
+    <div class="time-selector">
+      <select>
+        <option>Day</option>
+        <option>Week</option>
+        <option>Month</option>
+        <option>Quarter</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <aside class="sidebar left">
+      <button id="collapse-left">Toggle Sidebar</button>
+      <ul>
+        <li>All Departments</li>
+        <li>Marketing</li>
+        <li>Sales</li>
+        <li>Delivery</li>
+        <li>Support</li>
+        <li>Management</li>
+      </ul>
+    </aside>
+
+    <div id="scene-container">
+      <div id="loading-screen" class="loader">Loading Dashboard...</div>
+    </div>
+
+    <aside class="sidebar right">
+      <button id="collapse-right">Toggle Sidebar</button>
+      <div class="details">
+        <h2>Department Overview</h2>
+        <div>Budget: <span>$0</span></div>
+        <div>Headcount: <span id="headcount">0</span></div>
+        <div>Performance: <span id="performance">0%</span></div>
+        <div>Efficiency: <span id="efficiency">0%</span></div>
+
+        <button id="hire-btn">Hire Staff</button>
+        <button id="budget-btn">Increase Budget</button>
+        <button id="optimize-btn">Optimize</button>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <div>FPS: <span id="fps">0</span></div>
+    <div>Date: <span id="current-date"></span></div>
+    <div>© 2025 SoftStackers</div>
+  </footer>
+
+  <script defer src="app.js"></script>
+</body>
+</html>
